@@ -1,0 +1,164 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Chennai_Super_Kings.TeamProfile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/PanoramaBackground.png"/>
+        </Grid.Background>
+        <phone:Panorama Title="team profile" Foreground="Black">
+
+            <!--Panorama item one-->
+
+
+            <!--Panorama item two-->
+            <phone:PanoramaItem Header="batsmen">
+                <Grid>
+                    <ListBox>
+                        <ListBoxItem>
+                            <TextBlock Text="mahendra singh dhoni" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="suresh raina" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="francois du plessis" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="michael hussey" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="murali vijay" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="subramaniam badrinath" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="anirudha srikkanth" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="wriddhiman saha" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="baba aparajith" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        
+                    </ListBox>
+                </Grid>
+            </phone:PanoramaItem>
+            <phone:PanoramaItem Header="bowlers">
+                <Grid>
+                    <ListBox>
+                        <ListBoxItem>
+                            <TextBlock Text="ravichandran ashwin" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="ben hilfenhaus" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="dirk peter nannes" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="nuwan kulasekara" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="ben laughlin" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="shadab bashir jakati" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="jason holder" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="ronit More" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="imtiaz ahmed" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="ankit singh rajpoot" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="karthikeyan r" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="mohit mahipal sharma" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                    </ListBox>
+                </Grid>
+            </phone:PanoramaItem>
+            <phone:PanoramaItem Header="all rounders">
+                <Grid>
+                    <ListBox>
+                        <ListBoxItem>
+                            <TextBlock Text="albie morkel" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="ravindra jadeja" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="dwayne bravo" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="christopher henry morris" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="akila dananjaya perera" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="vijay shankar" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+
+
+                    </ListBox>
+                </Grid>
+            </phone:PanoramaItem>
+            <phone:PanoramaItem Header="staffs">
+                <Grid>
+                    <ListBox>
+                        <ListBoxItem>
+                            <TextBlock Text="stephen fleming" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="andy bichel" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="steve rixon" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="radha krishnan (russell)" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="tom simsek" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="lakshmi narayanan" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="gregory allen king" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <TextBlock Text="dr. madhu thottappillil" Foreground="Black" FontSize="36"/>
+                        </ListBoxItem>
+
+
+                    </ListBox>
+                </Grid>
+            </phone:PanoramaItem>
+        </phone:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>
